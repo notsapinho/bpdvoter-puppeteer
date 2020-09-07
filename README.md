@@ -20,7 +20,7 @@ Você pode usar este programa para obter inúmeros votos no seu bot em [BPD](htt
 
 Eu não testei ainda, mas você pode usar a biblioteca [`cron`](https://www.npmjs.com/package/cron). [`Cron`](https://www.npmjs.com/package/cron) basicamente executa uma função periodicamente de acordo com o que você definiu em sua configuração, como [BPD](https://botsparadiscord.com) dá a você um delay de 12 horas para votar, você pode usar o código abaixo:
 
-`` `js
+```js
 const { CronJob } = require("cron");
 
 const job = new CronJob (
@@ -35,7 +35,7 @@ const job = new CronJob (
 );
 
 job.start();
-`` `
+```
 
 Ou se você for preguiçoso, já fizemos isso para você, basta digitar `npm run cron` no terminal.
 
