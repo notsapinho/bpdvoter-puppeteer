@@ -1,8 +1,8 @@
-## Bots para Discord votador
+## Zuraaa votador
 
-Um simples `Bots para Discord` votador de bot feito com puppeteer.
+Um simples votador de bot para o `Zuraaa` feito com puppeteer.
 
-Você pode usar este programa para obter inúmeros votos no seu bot em [BPD](https://botsparadiscord.com), mas você precisará de `tokens de usuário`.
+Você pode usar este programa para obter inúmeros votos no seu bot em [ZURAAA](https://zuraaa.com/), mas você precisará de `tokens de usuário`.
 
 <hr> </hr>
 
@@ -18,13 +18,13 @@ Você pode usar este programa para obter inúmeros votos no seu bot em [BPD](htt
 
 ### Executando periodicamente
 
-Eu não testei ainda, mas você pode usar a biblioteca [`cron`](https://www.npmjs.com/package/cron). [`Cron`](https://www.npmjs.com/package/cron) basicamente executa uma função periodicamente de acordo com o que você definiu em sua configuração, como [BPD](https://botsparadiscord.com) dá a você um delay de 12 horas para votar, você pode usar o código abaixo:
+Eu não testei ainda, mas você pode usar a biblioteca [`cron`](https://www.npmjs.com/package/cron). [`Cron`](https://www.npmjs.com/package/cron) basicamente executa uma função periodicamente de acordo com o que você definiu em sua configuração, como [ZURAAA](https://zuraaa.com/) dá a você um delay de 12 horas para votar, você pode usar o código abaixo:
 
 ```js
 const { CronJob } = require("cron");
 
 const job = new CronJob (
-    "0 */12 * * * *",
+    "0 */4 * * *",
     () => {
         console.log ("Você verá esta mensagem a cada 12 horas");
         // ...
