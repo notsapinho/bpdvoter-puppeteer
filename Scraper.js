@@ -113,7 +113,7 @@ function vote(token) {
                     return document.querySelector(".title.is-size-3.is-uppercase").innerText;
                 });
 
-                if (text != "Erro") {
+                if (text != "ERRO") {
                     voteLog.succeed(`[VOTED TO ${config.botID}]`);
                 } else if (!text) return resolve(voteLog.fail(`[BLOCKED TOKEN]`));
                 else {
