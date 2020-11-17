@@ -3,7 +3,7 @@ const config = require("./config");
 const vote = require("./Scraper");
 
 const job = new CronJob(
-    "0 */12 * * * *",
+    "0 */4 * * *",
     async () => {
         for (let i = 0; i < config.tokens.length; i++) {
             const x = await vote(config.tokens[i]);
