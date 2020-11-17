@@ -18,7 +18,7 @@ Você pode usar este programa para obter inúmeros votos no seu bot em [ZURAAA](
 
 ### Executando periodicamente
 
-Eu não testei ainda, mas você pode usar a biblioteca [`cron`](https://www.npmjs.com/package/cron). [`Cron`](https://www.npmjs.com/package/cron) basicamente executa uma função periodicamente de acordo com o que você definiu em sua configuração, como [ZURAAA](https://zuraaa.com/) dá a você um delay de 12 horas para votar, você pode usar o código abaixo:
+Eu não testei ainda, mas você pode usar a biblioteca [`cron`](https://www.npmjs.com/package/cron). [`Cron`](https://www.npmjs.com/package/cron) basicamente executa uma função periodicamente de acordo com o que você definiu em sua configuração, como [ZURAAA](https://zuraaa.com/) dá a você um delay de 4 horas para votar, você pode usar o código abaixo:
 
 ```js
 const { CronJob } = require("cron");
